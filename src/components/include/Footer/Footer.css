@@ -1,0 +1,14 @@
+.footer{
+    background-color: #172538;
+    padding: 41px 0;
+    color: #fff;
+}
+.footer-list{
+    margin: 0;
+    list-style: none;
+    padding-left: 4px;
+    margin-top: 20px;
+}
+.footer-list li {
+    padding: 10px 0;
+}

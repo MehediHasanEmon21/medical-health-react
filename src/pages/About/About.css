@@ -1,0 +1,25 @@
+.about-top{
+    padding: 20px 0;
+    background-image: url('https://preview.colorlib.com/theme/medica/img/bg-img/xhero2.jpg.pagespeed.ic.XUPjv6lKVw.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.about-description ul{
+    list-style: none;
+}
+
+.about-description ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.about-description ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: blue; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
